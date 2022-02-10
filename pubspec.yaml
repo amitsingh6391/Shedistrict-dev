@@ -1,0 +1,93 @@
+name: shedistrict
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  another_xlider: ^1.0.0
+  auto_route: ^1.0.1
+  carousel_slider: ^4.0.0
+  cloud_firestore: ^2.4.0
+  custom_navigation_bar: ^0.8.2
+  dartz: ^0.10.0-nullsafety.1
+  device_preview: ^0.7.4
+  file_picker: ^3.0.1
+  firebase_auth: ^3.0.1
+  firebase_core: ^1.4.0
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.16.0
+  flutter_riverpod: ^0.14.0+3
+  flutter_screenutil: ^5.0.0-nullsafety.11
+  flutter_switch: ^0.3.2
+  fluttericon: ^2.0.0
+  freezed_annotation: ^0.14.1
+  get_it: ^6.0.0
+  google_fonts: ^2.1.0
+  image_picker: ^0.8.3+2
+  injectable: ^1.2.0
+  json_annotation: ^4.0.0
+  line_icons: ^2.0.1
+  persistent_bottom_nav_bar: ^4.0.2
+  pin_code_fields: ^7.2.0
+  provider: ^5.0.0
+
+ 
+  shared_preferences: ^2.0.5
+  uuid: ^3.0.2
+  flutter_advanced_switch: ^2.1.0
+  date_time_picker: ^2.1.0
+  url_launcher: ^6.0.10
+  flutter_feather_icons: ^2.0.0+1
+  font_awesome_flutter: ^9.1.0
+  dropdown_below: ^1.0.0
+  flutter_native_splash: ^1.2.3
+  flutter_cupertino_datetime_picker: ^2.0.1
+  flutter_datetime_picker: ^1.5.1
+  keyboard_actions: ^3.4.4
+  searchfield: ^0.5.6
+  delayed_widget: ^1.1.1
+  mobx: ^2.0.5
+  localstorage: ^4.0.0+1
+  firebase_storage: ^10.0.5
+  camera: ^0.9.2+2
+  video_player: ^2.2.3
+  path_provider: ^2.0.4
+  ffmpeg_kit_flutter: 4.5.0-LTS
+  geolocator: ^7.7.1
+  permission_handler: ^8.1.6
+  geocoding: ^2.0.1
+  flutter_mobx: ^2.0.2
+
+dev_dependencies:
+  auto_route_generator: ^1.0.1
+  build_runner: null
+  mobx_codegen: null
+  flutter_launcher_icons: ^0.9.1
+  flutter_test:
+
+    sdk: flutter
+  freezed: ^0.14.1
+  injectable_generator: ^1.2.0
+  json_serializable: ^4.0.2
+  lint: ^1.5.3
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/countries.json
+
+flutter_icons:
+  image_path: "assets/images/applogo.png"
+  android: true
+  ios: true
